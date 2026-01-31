@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.env
+*.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Virtual Envs
+env/
+venv/
+medallion_env/
+.kafkavenv/
+*.egg
+
+# VSCode
+.vscode/
+
+# Spark / Delta / Kafka output
+data/bronze/
+data/silver/
+data/gold/
+data/*/_checkpoints/
+tmp/
+spark-warehouse/
+.metastore_db/
+
+# Kafka logs (if any)
+logs/
+kafka-logs/
+zookeeper/
+
+# OS-generated
+Thumbs.db
+.DS_Store
+
+# Git
+*.swp
+*.swo
+*.bak
+*.old
